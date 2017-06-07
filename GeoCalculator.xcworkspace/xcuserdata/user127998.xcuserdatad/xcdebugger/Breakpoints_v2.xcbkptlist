@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GeoCalculator/ViewController.swift"
+            timestampString = "518538658.510758"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GeoCalculator.ViewController.(ref in _8A5034525CFFC2C5B464E33752A84CEC).getter : Swift.Optional&lt;__ObjC.DatabaseReference&gt;"
+                  moduleName = "GeoCalculator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user127998/Downloads/hw7/GeoCalculator/GeoCalculator/ViewController.swift"
+                  timestampString = "518538676.938098"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "35">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GeoCalculator.ViewController.(ref in _8A5034525CFFC2C5B464E33752A84CEC).setter : Swift.Optional&lt;__ObjC.DatabaseReference&gt;"
+                  moduleName = "GeoCalculator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user127998/Downloads/hw7/GeoCalculator/GeoCalculator/ViewController.swift"
+                  timestampString = "518538676.9422"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "65">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GeoCalculator.ViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; GeoCalculator.ViewController"
+                  moduleName = "GeoCalculator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user127998/Downloads/hw7/GeoCalculator/GeoCalculator/ViewController.swift"
+                  timestampString = "518538676.946437"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "922">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GeoCalculator.ViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;GeoCalculator.ViewController&gt;"
+                  moduleName = "GeoCalculator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user127998/Downloads/hw7/GeoCalculator/GeoCalculator/ViewController.swift"
+                  timestampString = "518538676.95049"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "817">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GeoCalculator/ViewController.swift"
+            timestampString = "518538658.510758"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GeoCalculator/ViewController.swift"
+            timestampString = "518538458.229484"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "193"
+            endingLineNumber = "193"
+            landmarkName = "Formatter"
+            landmarkType = "14">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

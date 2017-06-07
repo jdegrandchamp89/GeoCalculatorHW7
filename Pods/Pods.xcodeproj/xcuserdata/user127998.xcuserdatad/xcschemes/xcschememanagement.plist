@@ -9,6 +9,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>GoogleToolboxForMac.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-GeoCalculator.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -27,12 +32,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>1E6E351347F2AC645A7CA93FFBED9353</key>
+		<key>00103D6C821BE85971C563025527BA5D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>4568F5F3CB0F4039F0A56C9DDDF01073</key>
+		<key>1E6E351347F2AC645A7CA93FFBED9353</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -43,6 +48,11 @@
 			<true/>
 		</dict>
 		<key>967FFFF851DE0D4D99C5902EF7F94088</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F290C539E92AD4F083CA1D1DDE0BF39E</key>
 		<dict>
 			<key>primary</key>
 			<true/>

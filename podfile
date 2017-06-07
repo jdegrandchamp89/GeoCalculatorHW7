@@ -8,6 +8,8 @@ target 'GeoCalculator' do
   # Pods for GeoCalculator
 pod 'Eureka', '~> 2.0.0-beta.1'
 pod 'GooglePlacePicker'
+pod 'Firebase/Core' 
+pod 'Firebase/Database' 
 
   target 'GeoCalculatorTests' do
     inherit! :search_paths
