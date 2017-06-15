@@ -24,19 +24,19 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="JWr-zO-aqX">
-                                <rect key="frame" x="16" y="72" width="343" height="68"/>
+                                <rect key="frame" x="16" y="72" width="343" height="69"/>
                                 <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="UZE-HT-ND9">
-                                        <rect key="frame" x="0.0" y="0.0" width="343" height="30"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="UZE-HT-ND9">
+                                        <rect key="frame" x="0.0" y="0.0" width="343" height="31"/>
                                         <subviews>
-                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter latitude for p1" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="tTr-XP-a9e" customClass="GeoCalcTextField" customModule="GeoCalculator" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="0.0" width="167.5" height="30"/>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter latitude for p1" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="tTr-XP-a9e" customClass="GeoCalcTextField" customModule="GeoCalculator" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="167.5" height="31"/>
                                                 <nil key="textColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                                             </textField>
-                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter longitude for p1" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="XNl-d5-r0F" customClass="GeoCalcTextField" customModule="GeoCalculator" customModuleProvider="target">
-                                                <rect key="frame" x="175.5" y="0.0" width="167.5" height="30"/>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter longitude for p1" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="XNl-d5-r0F" customClass="GeoCalcTextField" customModule="GeoCalculator" customModuleProvider="target">
+                                                <rect key="frame" x="175.5" y="0.0" width="167.5" height="31"/>
                                                 <nil key="textColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
@@ -46,16 +46,16 @@
                                             <constraint firstItem="XNl-d5-r0F" firstAttribute="width" secondItem="tTr-XP-a9e" secondAttribute="width" id="p4Q-8S-1Ij"/>
                                         </constraints>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="WsB-0X-ATl">
-                                        <rect key="frame" x="0.0" y="38" width="343" height="30"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="WsB-0X-ATl">
+                                        <rect key="frame" x="0.0" y="39" width="343" height="30"/>
                                         <subviews>
-                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter latitude for p2" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="C27-Ze-Vr5" customClass="GeoCalcTextField" customModule="GeoCalculator" customModuleProvider="target">
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter latitude for p2" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="C27-Ze-Vr5" customClass="GeoCalcTextField" customModule="GeoCalculator" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="167.5" height="30"/>
                                                 <nil key="textColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                                             </textField>
-                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter longitude for p2" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="Mvd-eO-fZA" customClass="GeoCalcTextField" customModule="GeoCalculator" customModuleProvider="target">
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter longitude for p2" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="Mvd-eO-fZA" customClass="GeoCalcTextField" customModule="GeoCalculator" customModuleProvider="target">
                                                 <rect key="frame" x="175.5" y="0.0" width="167.5" height="30"/>
                                                 <nil key="textColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -69,60 +69,123 @@
                                 </subviews>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9nL-eN-mWv" customClass="GeoCalcButton" customModule="GeoCalculator" customModuleProvider="target">
-                                <rect key="frame" x="16" y="148" width="125" height="30"/>
+                                <rect key="frame" x="16" y="149" width="125" height="30"/>
                                 <state key="normal" title="Calculate"/>
                                 <connections>
                                     <action selector="calculateButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="liP-Xa-A5S"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1dP-E1-yDW" customClass="GeoCalcButton" customModule="GeoCalculator" customModuleProvider="target">
-                                <rect key="frame" x="234" y="148" width="125" height="30"/>
+                                <rect key="frame" x="234" y="149" width="125" height="30"/>
                                 <state key="normal" title="Clear"/>
                                 <connections>
                                     <action selector="clearButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="heg-bA-kze"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Distance: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2FP-7k-w4W" customClass="GeoCalcLabel" customModule="GeoCalculator" customModuleProvider="target">
-                                <rect key="frame" x="16" y="186" width="343" height="20.5"/>
+                                <rect key="frame" x="16" y="187" width="343" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bearing" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4wJ-LB-b7y" customClass="GeoCalcLabel" customModule="GeoCalculator" customModuleProvider="target">
-                                <rect key="frame" x="16" y="214.5" width="343" height="20.5"/>
+                                <rect key="frame" x="16" y="215.5" width="343" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vDf-IP-GUe" userLabel="Search" customClass="GeoCalcButton" customModule="GeoCalculator" customModuleProvider="target">
-                                <rect key="frame" x="124.5" y="617" width="125" height="30"/>
+                                <rect key="frame" x="125" y="617" width="125" height="30"/>
                                 <accessibility key="accessibilityConfiguration" label="Search"/>
                                 <state key="normal" title="Search"/>
                                 <connections>
                                     <segue destination="ora-uM-wHX" kind="show" identifier="searchSegue" id="c7p-Iq-RQf"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="FUE-mU-agk">
+                                <rect key="frame" x="16" y="274" width="159" height="119"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eCU-Ra-vbm">
+                                <rect key="frame" x="234" y="284" width="42" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="olL-a7-eJH"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OCr-uT-YHK">
+                                <rect key="frame" x="234" y="351" width="42" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="GxQ-6a-swv"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ejm-28-CXU">
+                                <rect key="frame" x="16" y="441" width="159" height="122"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jOG-yZ-h7W">
+                                <rect key="frame" x="234" y="464" width="42" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E0M-JD-ymz">
+                                <rect key="frame" x="234" y="525" width="42" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="vDf-IP-GUe" firstAttribute="top" secondItem="E0M-JD-ymz" secondAttribute="bottom" constant="71.5" id="14x-f4-Rwl"/>
                             <constraint firstItem="2FP-7k-w4W" firstAttribute="top" secondItem="9nL-eN-mWv" secondAttribute="bottom" constant="8" id="3s6-Lw-inz"/>
                             <constraint firstItem="JWr-zO-aqX" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" symbolic="YES" id="5Me-zV-1Ug"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="E0M-JD-ymz" secondAttribute="trailing" constant="83" id="7nC-1b-Lml"/>
+                            <constraint firstItem="jOG-yZ-h7W" firstAttribute="top" secondItem="OCr-uT-YHK" secondAttribute="bottom" constant="92" id="8j4-Br-EYS"/>
+                            <constraint firstItem="vDf-IP-GUe" firstAttribute="top" secondItem="OCr-uT-YHK" secondAttribute="bottom" constant="245.5" id="8t4-Yx-VAq"/>
+                            <constraint firstItem="E0M-JD-ymz" firstAttribute="top" secondItem="jOG-yZ-h7W" secondAttribute="bottom" constant="40.5" id="AIp-GW-e5o"/>
                             <constraint firstItem="vDf-IP-GUe" firstAttribute="centerX" secondItem="4wJ-LB-b7y" secondAttribute="centerX" id="BfF-U5-TVY"/>
                             <constraint firstAttribute="leadingMargin" secondItem="4wJ-LB-b7y" secondAttribute="leading" id="Feh-jw-TIc"/>
+                            <constraint firstItem="ejm-28-CXU" firstAttribute="top" secondItem="FUE-mU-agk" secondAttribute="bottom" constant="48" id="GSA-WG-YvD"/>
+                            <constraint firstItem="OCr-uT-YHK" firstAttribute="top" secondItem="eCU-Ra-vbm" secondAttribute="bottom" constant="46.5" id="Gf1-GC-4wa"/>
+                            <constraint firstItem="eCU-Ra-vbm" firstAttribute="leading" secondItem="FUE-mU-agk" secondAttribute="trailing" constant="59" id="IeW-Ce-Dq0"/>
+                            <constraint firstItem="FUE-mU-agk" firstAttribute="top" secondItem="4wJ-LB-b7y" secondAttribute="bottom" constant="38" id="K4f-3W-0gs"/>
                             <constraint firstAttribute="trailingMargin" secondItem="4wJ-LB-b7y" secondAttribute="trailing" id="KTs-r7-2sW"/>
+                            <constraint firstItem="vDf-IP-GUe" firstAttribute="top" secondItem="FUE-mU-agk" secondAttribute="bottom" constant="224" id="Nxx-Pn-zzN"/>
                             <constraint firstItem="9nL-eN-mWv" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="1:3" id="RJD-cO-4re"/>
+                            <constraint firstItem="eCU-Ra-vbm" firstAttribute="top" secondItem="4wJ-LB-b7y" secondAttribute="bottom" constant="48" id="RZJ-Vr-34W"/>
+                            <constraint firstItem="FUE-mU-agk" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="16" id="She-FZ-cfl"/>
                             <constraint firstItem="1dP-E1-yDW" firstAttribute="top" secondItem="JWr-zO-aqX" secondAttribute="bottom" constant="8" symbolic="YES" id="TNe-2n-ek4"/>
                             <constraint firstAttribute="bottom" secondItem="vDf-IP-GUe" secondAttribute="bottom" constant="20" symbolic="YES" id="Utx-K2-zgF"/>
                             <constraint firstItem="9nL-eN-mWv" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="VOz-yD-zL2"/>
+                            <constraint firstItem="OCr-uT-YHK" firstAttribute="leading" secondItem="FUE-mU-agk" secondAttribute="trailing" constant="59" id="VdW-4k-ibe"/>
+                            <constraint firstItem="OCr-uT-YHK" firstAttribute="top" secondItem="eCU-Ra-vbm" secondAttribute="bottom" constant="46.5" id="WnV-EG-Vst"/>
                             <constraint firstItem="1dP-E1-yDW" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="1:3" id="abE-0N-DZF"/>
+                            <constraint firstItem="E0M-JD-ymz" firstAttribute="leading" secondItem="ejm-28-CXU" secondAttribute="trailing" constant="59" id="b3K-pD-YYX"/>
+                            <constraint firstAttribute="trailing" secondItem="FUE-mU-agk" secondAttribute="trailing" constant="200" id="d6b-TI-b7n"/>
                             <constraint firstAttribute="trailingMargin" secondItem="JWr-zO-aqX" secondAttribute="trailing" id="dGt-t3-4PI"/>
+                            <constraint firstItem="OCr-uT-YHK" firstAttribute="top" secondItem="eCU-Ra-vbm" secondAttribute="bottom" constant="46" id="esT-Lz-WF7"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="OCr-uT-YHK" secondAttribute="trailing" constant="83" id="gz7-nj-0Qg"/>
                             <constraint firstItem="JWr-zO-aqX" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="h04-UF-NsP"/>
                             <constraint firstItem="4wJ-LB-b7y" firstAttribute="top" secondItem="2FP-7k-w4W" secondAttribute="bottom" constant="8" id="huw-dH-Bhr"/>
+                            <constraint firstItem="E0M-JD-ymz" firstAttribute="top" secondItem="jOG-yZ-h7W" secondAttribute="bottom" constant="41" id="iW5-L6-7a3"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="jOG-yZ-h7W" secondAttribute="trailing" constant="83" id="kpy-bB-rZ6"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="eCU-Ra-vbm" secondAttribute="trailing" constant="83" id="nMD-2d-ZvS"/>
                             <constraint firstItem="vDf-IP-GUe" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="1:3" id="pdW-od-AKx"/>
+                            <constraint firstItem="ejm-28-CXU" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="qec-hV-YbW"/>
                             <constraint firstItem="9nL-eN-mWv" firstAttribute="top" secondItem="JWr-zO-aqX" secondAttribute="bottom" constant="8" symbolic="YES" id="uCs-UQ-G0e"/>
                             <constraint firstAttribute="leadingMargin" secondItem="2FP-7k-w4W" secondAttribute="leading" id="upO-XY-XLt"/>
+                            <constraint firstAttribute="bottom" secondItem="OCr-uT-YHK" secondAttribute="bottom" constant="295" id="uuG-cT-MS6"/>
                             <constraint firstAttribute="trailingMargin" secondItem="2FP-7k-w4W" secondAttribute="trailing" id="vEJ-4L-mG7"/>
+                            <constraint firstItem="E0M-JD-ymz" firstAttribute="leading" secondItem="ejm-28-CXU" secondAttribute="trailing" constant="59" id="vcx-4y-q3B"/>
+                            <constraint firstItem="jOG-yZ-h7W" firstAttribute="leading" secondItem="ejm-28-CXU" secondAttribute="trailing" constant="59" id="xdM-SB-GQ7"/>
                             <constraint firstItem="1dP-E1-yDW" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="yIm-HH-U6P"/>
+                            <constraint firstItem="eCU-Ra-vbm" firstAttribute="top" secondItem="4wJ-LB-b7y" secondAttribute="bottom" constant="175" id="yZR-5w-dkf"/>
+                            <constraint firstItem="vDf-IP-GUe" firstAttribute="top" secondItem="ejm-28-CXU" secondAttribute="bottom" constant="54" id="ymz-De-5OX"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="GeoCalculator" id="gQh-xz-cae">
@@ -144,6 +207,12 @@
                         <outlet property="p1Lng" destination="XNl-d5-r0F" id="e4n-BD-K5z"/>
                         <outlet property="p2Lat" destination="C27-Ze-Vr5" id="eES-Mn-tMo"/>
                         <outlet property="p2Lng" destination="Mvd-eO-fZA" id="SoF-FC-QfE"/>
+                        <outlet property="weather2Image" destination="ejm-28-CXU" id="kog-6x-kAk"/>
+                        <outlet property="weather2Label1" destination="jOG-yZ-h7W" id="9Z4-Mu-ZvD"/>
+                        <outlet property="weather2Label2" destination="E0M-JD-ymz" id="F22-Uz-e9e"/>
+                        <outlet property="weatherImage" destination="FUE-mU-agk" id="PyM-0x-FHW"/>
+                        <outlet property="weatherLabel1" destination="eCU-Ra-vbm" id="RlK-j2-JYw"/>
+                        <outlet property="weatherLabel2" destination="OCr-uT-YHK" id="NXq-50-Cov"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

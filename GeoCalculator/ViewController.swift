@@ -24,8 +24,17 @@ class ViewController: UIViewController {
     @IBOutlet weak var distanceLabel: UILabel!
     @IBOutlet weak var bearingLabel: UILabel!
     
+    @IBOutlet weak var weatherImage: UIImageView!
+    @IBOutlet weak var weatherLabel1: UILabel!
+    @IBOutlet weak var weatherLabel2: UILabel!
+    @IBOutlet weak var weather2Image: UIImageView!
+    @IBOutlet weak var weather2Label1: UILabel!
+    @IBOutlet weak var weather2Label2: UILabel!
+    
     var distanceUnits : String = "Kilometers"
     var bearingUnits : String = "Degrees"
+    
+    let wAPI = DarkSkyWeatherService.getInstance()
     
     fileprivate var ref : DatabaseReference?
     //var ref: DatabaseReference!
@@ -74,6 +83,32 @@ class ViewController: UIViewController {
         let newChild = self.ref?.child("history").childByAutoId()
         
         newChild?.setValue(self.toDictionary(vals: entry))
+        
+        wAPI.getWeatherForDate(date: Date(), forLocation: (p1lt, p1ln)) { (weather)
+            in
+            
+            if let w = weather {
+                DispatchQueue.main.async {
+                    self.weatherImage.image = UIImage(named: w.iconName)
+                    self.weatherLabel1.text = "\(w.temperature.roundTo(places: 1))°"
+                    self.weatherLabel2.text = w.summary
+                }
+            }
+        }
+        
+        wAPI.getWeatherForDate(date: Date(), forLocation: (p2lt, p2ln)) { (weather)
+            in
+            
+            if let w = weather {
+                DispatchQueue.main.async {
+                    self.weather2Image.image = UIImage(named: w.iconName)
+                    self.weather2Label1.text = "\(w.temperature.roundTo(places: 1))°"
+                    self.weather2Label2.text = w.summary
+                }
+                
+            }
+            
+        }
     }
     
     @IBAction func calculateButtonPressed(_ sender: UIButton) {
@@ -223,4 +258,23 @@ extension String {
     var dateFromISO8601: Date? {
         return Date.Formatter.iso8601.date(from: self)
     }
+}
+
+struct Weather {
+    
+    var iconName : String
+    var temperature : Double
+    var summary : String
+    
+    init(iconName: String, temperature: Double, summary: String) {
+        self.iconName = iconName
+        self.temperature = temperature
+        self.summary = summary
+    }
+}
+
+protocol WeatherService {
+    func getWeatherForDate(date: Date, forLocation location: (Double, Double),
+                           completion: @escaping (Weather?) -> Void)
+    
 }
